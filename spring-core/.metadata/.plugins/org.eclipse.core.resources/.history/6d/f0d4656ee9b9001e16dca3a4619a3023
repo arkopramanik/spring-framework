@@ -1,9 +1,0 @@
-package com.sagility.model;
-
-public class MessageWriter {
-	
-	public String writeMessage(IMessageConverter messageConverter) {
-		return "Message Writer for "+messageConverter.convert();
-	}
-
-}
